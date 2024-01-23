@@ -1,5 +1,5 @@
 insightface==0.7.3
-diffusers
+diffusers["torch"]
 transformers
 accelerate
 safetensors
