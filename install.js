@@ -27,6 +27,7 @@ module.exports = {
         "pip install --upgrade pip",
         "pip3 install opencv-python",
         "pip install -r requirements.txt",
+        "pip install --force-reinstall numpy",
       ]
     }
   }, {
