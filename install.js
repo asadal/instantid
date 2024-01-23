@@ -25,6 +25,7 @@ module.exports = {
       "message": [
         "{{(gpu === 'nvidia' ? self.cmds.nvidia : (gpu === 'amd' ? self.cmds.amd : self.cmds.default))}}",
         "pip install -r requirements.txt",
+        "pip3 install opencv-python",
       ]
     }
   }, {
