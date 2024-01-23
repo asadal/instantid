@@ -9,4 +9,3 @@ spaces==0.19.4
 opencv-python
 git+https://github.com/tencent-ailab/IP-Adapter.git
 gradio
-numpy
