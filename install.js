@@ -24,10 +24,10 @@ module.exports = {
       "path": "app",
       "message": [
         "{{(gpu === 'nvidia' ? self.cmds.nvidia : (gpu === 'amd' ? self.cmds.amd : self.cmds.default))}}",
-        "pip install --upgrade pip",
+        // "pip install --upgrade pip",
         "pip3 install opencv-python",
         "pip install -r requirements.txt",
-        "pip install --force-reinstall numpy",
+        // "pip install --force-reinstall numpy",
       ]
     }
   }, {
